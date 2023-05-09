@@ -18,7 +18,7 @@ function sharee(e){
             text:'Sharing Links',
             url:url
         }).then(()=>{
-            console.log("thanks for sharing");
+            alert("thanks for sharing");
         })
         .catch(console.error)
     }
