@@ -44,7 +44,7 @@ async function copyText(e){
     console.log(link)
     try{
         await navigator.clipboard.writeText(link)
-        alert("Link Copied")
+        alert(`Link Copied ${link}` )
     }
     catch(err){
         console.error(err)
